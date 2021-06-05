@@ -32,8 +32,8 @@
 
 ## 三、效果展示
 
-<img src=".\pic\login.PNG" alt="login" style="zoom:60%;" />
+<img src=".\pic\login.PNG" alt="login" style="zoom:50%;" />
 
-<img src=".\pic\makeClock.PNG" alt="makeClock" style="zoom:60%;" />
+<img src=".\pic\makeClock.PNG" alt="makeClock" style="zoom:50%;" />
 
-<img src=".\pic\clock.PNG" alt="clock" style="zoom:60%;" />
+<img src=".\pic\clock.PNG" alt="clock" style="zoom:50%;" />

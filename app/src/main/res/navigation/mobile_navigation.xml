@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.bitteam.pomodorotodo.ui.fragment.HomeFragment"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/navigation_study"
+            android:name="com.bitteam.pomodorotodo.ui.fragment.StudyFragment"
+            android:label="@string/title_study"
+            tools:layout="@layout/fragment_study"/>
+
+    <fragment
+            android:id="@+id/navigation_work"
+            android:name="com.bitteam.pomodorotodo.ui.fragment.WorkFragment"
+            android:label="@string/title_work"
+            tools:layout="@layout/fragment_work"/>
+
+    <fragment
+            android:id="@+id/navigation_health"
+            android:name="com.bitteam.pomodorotodo.ui.fragment.HealthFragment"
+            android:label="@string/title_health"
+            tools:layout="@layout/fragment_exercise"/>
+
+    <fragment
+            android:id="@+id/navigation_setting"
+            android:name="com.bitteam.pomodorotodo.ui.fragment.OtherFragment"
+            android:label="@string/title_setting"
+            tools:layout="@layout/fragment_other"/>
+</navigation>

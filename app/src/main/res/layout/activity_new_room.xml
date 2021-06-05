@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:fitsSystemWindows="true"
+    android:padding="10dp"
+    tools:context="com.bitteam.pomodorotodo.ui.activity.NewRoomActivity">
+
+    <TextView
+        android:id="@+id/tv_basic_information"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="@string/createroom_basic_information"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/et_room_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/createroom_room_name"
+        android:textColor="@color/background"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/et_room_interview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/createroom_room_interview"
+        android:textColor="@color/background"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/tv_room_public"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="175dp"
+        android:text="@string/createroom_room_public"
+        android:textSize="25sp" />
+
+
+    <Switch
+        android:id="@+id/sw_public"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="175dp" />
+
+    <TextView
+        android:id="@+id/tv_roompublic_plus"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp"
+        android:text="@string/createroom_room_public_plus"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_join_password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/createroom_join_password"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/sw_need_password"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:id="@+id/tv_join_password_plus"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="285dp"
+        android:text="@string/createroom_join_password_plus"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_22_requirement"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="305dp"
+        android:text="@string/createroom_22_requirement"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/sw_22_requirement"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="305dp" />
+
+    <TextView
+        android:id="@+id/tv_22_requirement_plus"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="340dp"
+        android:text="@string/createroom_22_requirement_plus"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_limit"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="375dp"
+        android:text="@string/createroom_limit"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/sw_limit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="375dp" />
+
+    <TextView
+        android:id="@+id/tv_22_limit_plus"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="410dp"
+        android:text="@string/createroom_limit_plus"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_Notime"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/createroom_notime"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/sw_notime"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="430dp" />
+
+    <TextView
+        android:id="@+id/tv_22_notime_plus"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="465dp"
+        android:text="@string/createroom_notime_plus"
+        android:textSize="13sp" />
+
+</RelativeLayout>

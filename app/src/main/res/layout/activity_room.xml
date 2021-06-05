@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.bitteam.pomodorotodo.ui.activity.RoomActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="自习室"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/create_room"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginHorizontal="145dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/room_circle_blue"
+        android:text="@string/room_create"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/join_room"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginHorizontal="145dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/room_circle_purple"
+        android:text="@string/room_attend"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="20dp"
+        android:layout_marginHorizontal="156dp"
+        android:layout_marginTop="410dp"
+        android:text="@string/room_what_is_room" />
+
+</RelativeLayout>

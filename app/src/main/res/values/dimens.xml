@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="contentTextSize">14sp</dimen>
+    <dimen name="contentSmallTextSize">12sp</dimen>
+    <dimen name="contentLargeTextSize">16sp</dimen>
+    <dimen name="photo_size_small">50dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="header_spacing">16dp</dimen>
+    <dimen name="info_spacing">16dp</dimen>
+
+    <dimen name="card_view_margin">16dp</dimen>
+    <dimen name="card_view_spacing">16dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+
+    <dimen name="info_margin">16dp</dimen>
+    <dimen name="info_header_height">180dp</dimen>
+    <dimen name="info_header_vertical_spacing">16dp</dimen>
+
+    <dimen name="preference_header_padding">16dp</dimen>
+    <dimen name="preference_header_spacing">4dp</dimen>
+    <dimen name="preference_item_padding_side">16dp</dimen>
+    <dimen name="preference_item_padding">16dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+    <dimen name="popup_add_height">260dp</dimen>
+    <dimen name="popup_add_width">320dp</dimen>
+    <dimen name="popup_add_head_height">40dp</dimen>
+
+</resources>

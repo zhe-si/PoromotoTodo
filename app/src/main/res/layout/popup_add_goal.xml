@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_goal_popup"
+    android:layout_width="@dimen/popup_add_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_popup_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/add_goal_popup_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/popup_add_head_height"
+        android:background="@drawable/ic_img1"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定目标"
+            android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="18dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_goal_popup_close"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_close"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHeight_percent="0.7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_goal_popup_create"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/done"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHeight_percent="0.7"
+            app:layout_constraintRight_toLeftOf="@id/add_goal_popup_close"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/add_goal_popup_input_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入目标名称"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/add_goal_popup_toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_percent="0.7"
+        app:layout_constraintHorizontal_bias="0.4"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_goal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我想在"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_totalTime"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="27dp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/add_goal_popup_input_deadline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent="0.19"
+        app:layout_constraintTop_toBottomOf="@+id/add_goal_popup_input_name"
+        android:layout_marginTop="9.4dp"
+        app:layout_constraintLeft_toRightOf="@id/add_goal_popup_tip_goal1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_goal2"
+        android:text="之前一共完成"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_totalTime"
+        app:layout_constraintLeft_toRightOf="@+id/add_goal_popup_input_deadline" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/add_goal_popup_input_totalTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="60"
+        android:gravity="center"
+        app:layout_constraintWidth_percent="0.17"
+        app:layout_constraintTop_toBottomOf="@+id/add_goal_popup_input_name"
+        app:layout_constraintLeft_toRightOf="@id/add_goal_popup_tip_goal2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_goal3"
+        android:text="分钟"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_totalTime"
+        app:layout_constraintLeft_toRightOf="@+id/add_goal_popup_input_totalTime" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_clock1"
+        android:text="每次时长"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_clock"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/add_goal_popup_input_clock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="10"
+        android:gravity="center"
+        app:layout_constraintWidth_percent="0.14"
+        app:layout_constraintTop_toBottomOf="@id/add_goal_popup_input_totalTime"
+        app:layout_constraintLeft_toRightOf="@id/add_goal_popup_tip_clock1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_clock2"
+        android:text="分钟"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_clock"
+        app:layout_constraintLeft_toRightOf="@id/add_goal_popup_input_clock" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/add_goal_popup_switch_strict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="严格模式"
+        app:layout_constraintBaseline_toBaselineOf="@id/add_goal_popup_input_clock"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="21dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/add_goal_popup_tip_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详细描述"
+        app:layout_constraintTop_toBottomOf="@id/add_goal_popup_input_clock"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/add_goal_popup_input_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入详细描述"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/add_goal_popup_tip_description"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/add_goal_popup_input_image"
+        android:layout_marginLeft="28dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/add_goal_popup_input_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        android:src="@drawable/ic_pic"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintTop_toBottomOf="@id/add_goal_popup_tip_description"
+        app:layout_constraintLeft_toRightOf="@id/add_goal_popup_input_description"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

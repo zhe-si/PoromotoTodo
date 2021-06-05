@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#54aadb</color>
+
+    <color name="colorPrimaryDark">#54aadb</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="colorAccent">#54aadb</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="black_semi">#3B3B3B</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="half_black_2">#8a8a8a</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="yellow">#f6d126</color>
+    <color name="grey">#14d0d0d0</color>
+    <color name="green">#68e504</color>
+
+    <color name="deadline_red">#ef0606</color>
+    <color name="deadline_blue">#024265</color>
+    <color name="deadline_orange">#ea9d16</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen">#026499</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen">#448bb2</color>
+
+    <color name="titleTextColor">#000000</color>
+
+    <color name="shadowColor">#FFFFFF</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+
+    <color name="text1">#4D4D4D</color>
+    <color name="text2">#999999</color>
+
+    <color name="icon_color">#4a8fff</color>
+
+    <color name="rice">#FFFFF0</color>
+    <color name="colorTextDark">#333333</color>
+    <!-- 水纹 -->
+    <color name="colorRipple">#F4A5A0</color>
+
+    <!-- 倒计时钟 -->
+    <color name="colorStrokeCircle">#55ffffff</color>
+    <color name="colorStrokeArc">#ffffff</color>
+    <!-- 分割线 -->
+    <color name="colorDivider">#E9E9E9</color>
+    <!-- Toast color-->
+    <color name="toastSuccess">#57BDAA</color>
+    <color name="toastError">#FD5B78</color>
+    <color name="toastInfo">#7bbfea</color>
+    <color name="toastNormal">#828281</color>
+</resources>

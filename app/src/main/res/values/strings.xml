@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">PoromotoTodo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">日程表</string>
+    <string name="title_study">学习</string>
+    <string name="title_work">工作</string>
+    <string name="title_health">健康</string>
+    <string name="title_setting">其它</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="room_create">创建自习室</string>
+    <string name="upload">上传到服务器</string>
+    <string name="download">下载到本机</string>
+    <string name="room_attend">加入自习室</string>
+    <string name="room_what_is_room">什么是自习室？</string>
+    <string name="room_search">浏览或搜索公共自习室</string>
+    <string name="room_join_in">通过输入加入码加入</string>
+    <string name="room_cancel">取消</string>
+    <string name="createroom_basic_information">基本信息</string>
+    <string name="createroom_room_name">自习室名称</string>
+    <string name="createroom_room_interview">自习室简介</string>
+    <string name="createroom_room_public">公开此自习室</string>
+    <string name="createroom_room_public_plus">若选择公开，该自习室会出现在公开自习室列表且可按名称搜索到。若不公开，则仅可通过加入码加入。</string>
+    <string name="createroom_join_password">加入时需要密码</string>
+    <string name="createroom_join_password_plus">您可以设置加入自习室所需要的密码。</string>
+    <string name="createroom_22_requirement">加入22点前每日专注时长要求</string>
+    <string name="createroom_22_requirement_plus">设置后，可在22点前一键一出不满足专注时长要求的用户。</string>
+    <string name="createroom_limit">自定义人数上限</string>
+    <string name="createroom_limit_plus">默认人数上限为50人。可自定义范围是2~300人。</string>
+    <string name="createroom_notime">不统计锁机时长</string>
+    <string name="createroom_notime_plus">开启后，成员的锁机时长不会计算在每日专注时长内。</string>
+    <string name="room_joined_room">番茄自习室</string>
+    <string name="room_joined_nameid">S11冲冲冲（加入码D678F7DB）</string>
+    <string name="room_joined_slogan">异队就美帝！！！</string>
+    <string name="room_joined_roomstate">4人正在专注5您当前排名</string>
+
+    <string-array name="entries_list_preference">
+        <item>音乐1</item>
+        <item>音乐2</item>
+        <item>音乐3</item>
+    </string-array>
+    <string-array name="setting_sounds">
+        <item>音乐1</item>
+        <item>音乐2</item>
+        <item>音乐3</item>
+    </string-array>
+
+    <string name="database_version">1</string>
+    <string name="database_name">com.bitteam.pomodorotodo.pomodoroTodoDB</string>
+
+</resources>

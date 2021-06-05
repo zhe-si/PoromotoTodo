@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/set_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="120dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_study_room_unpress"
+                    app:tint="#C85353" />
+
+                <TextView
+                    android:id="@+id/statistic_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="统计数据"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/test_icon_async" />
+
+                <TextView
+                    android:id="@+id/backup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="备份与数据恢复"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/test_icon_main_color" />
+                android:src="@color/colorRipple" />
+
+                <TextView
+                    android:id="@+id/tV_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="界面设置"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/test_icon_setting" />
+
+                <TextView
+                    android:id="@+id/other_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="其他设置"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/random_avator19" />
+
+                <TextView
+                    android:id="@+id/tV_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="关于我们"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/style_item">
+
+                <ImageView
+                    android:id="@+id/btn_6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/test_icon_help" />
+                <!--android:background="#FBFCFD"-->
+                android:src="@color/colorRipple" />
+
+                <TextView
+                    android:id="@+id/tV_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center|left"
+                    android:text="帮助"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#03A9F4"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center|bottom"
+            android:text="退出登录"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</ScrollView>

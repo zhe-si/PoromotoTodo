@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_menu_item"
+        android:icon="@drawable/add_white"
+        android:title="add_pomodoro"
+        app:showAsAction="always" />
+
+<!--        <menu>-->
+
+<!--            <item-->
+<!--                android:id="@+id/add_menu_item_standard"-->
+<!--                android:title="番茄钟" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/add_menu_item_goal"-->
+<!--                android:title="定目标" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/add_menu_item_habit"-->
+<!--                android:title="养习惯" />-->
+
+<!--        </menu>-->
+
+<!--    </item>-->
+
+    <item
+        android:id="@+id/data_statistics"
+        android:title="统计数据" />
+
+    <item
+        android:id="@+id/room_item"
+        android:title="自习室" />
+
+</menu>

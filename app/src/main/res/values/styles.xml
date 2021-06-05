@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.Settings">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyTextAppearance.BodyNormal" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/contentTextSize</item>
+        <item name="android:textColor">@color/titleTextColor</item>
+    </style>
+
+    <style name="MyTextAppearance.BodySmall" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/contentSmallTextSize</item>
+        <item name="android:textColor">@color/titleTextColor</item>
+    </style>
+
+    <style name="MyTextAppearance.BodyLarge" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/contentLargeTextSize</item>
+        <item name="android:textColor">@color/titleTextColor</item>
+    </style>
+
+    <style name="MyTextAppearance.BodyNormal.Shadow" parent="MyTextAppearance.BodyNormal">
+        <item name="android:shadowColor">@color/shadowColor</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="MyTextAppearance.BodySmall.Shadow" parent="MyTextAppearance.BodySmall">
+        <item name="android:shadowColor">@color/shadowColor</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="MyTextAppearance.BodyLarge.Shadow" parent="MyTextAppearance.BodyLarge">
+        <item name="android:textSize">@dimen/contentLargeTextSize</item>
+        <item name="android:textColor">@color/titleTextColor</item>
+        <item name="android:shadowColor">@color/shadowColor</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="MyTextAppearance.Bottom" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/contentSmallTextSize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="AppTheme.TransNav" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="BottomDialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="DialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <style name="AppTheme.About" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/black</item>
+
+        <!--optional-->
+        <!--<item name="aboutPageHeaderBackground">reference|color</item>-->
+        <!--<item name="aboutPageHeaderContentScrim">reference|color</item>-->
+        <!--<item name="aboutPageHeaderTextColor">@color/black</item>-->
+        <!--<item name="aboutPageNavigationIcon">reference</item>-->
+    </style>
+
+    <style name="My_CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:colorControlActivated">@color/half_black_2</item>
+        <item name="android:colorControlNormal">@color/half_black_2</item>
+    </style>
+
+</resources>
